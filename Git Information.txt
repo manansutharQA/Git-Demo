@@ -31,3 +31,7 @@ git add folder name
 	git push origin master
 
 Add Tokens and small changes with same file
+
+
+7) git pull remote repo
+git pull https://github.com/manansutharQA/Git-Demo.git
