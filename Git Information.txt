@@ -1,0 +1,31 @@
+Round - 1
+-----------------
+1)
+
+Create new Local Repo (one time)
+git init
+
+2) 
+provide user information to git repo (one time)
+
+	git config --global user.name "name"
+	git config --global user.Email "email"
+
+3) Adding files/folders to staging/indexing
+
+git add - A -> add all the files and folder to staging
+git add filename
+git add *.java
+git add folder name
+
+
+4) Commit the code into Local(git) repo
+	git commit -m "Commit message"
+
+
+5) Connect local repo with remote repo(one time)
+	git remote add origin "https://github.com/manansutharQA/Git-Demo.git"
+
+6) push master (code into remote repo)
+
+	git push origin master
